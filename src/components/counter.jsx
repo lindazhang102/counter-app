@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-    state = {
-        tags:["tag1","tag2","tag3"]
-    }
-    // constructor(){
-    //     super();
-    //     console.log("constructor",this);
-    //     this.handleIncrement = this.handleIncrement.bind(this);
-    // }
-    
     render() { 
         // console.log("props",this.props);
         return(
